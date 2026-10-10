@@ -1,0 +1,17 @@
+# SDD ledger — plan: docs/superpowers/plans/2026-10-04-contextual-match-prediction.md
+Ruling: workspace não está dentro de um repositório Git — implementar no diretório de trabalho existente, pois não há base válida para git worktree; nenhum commit será criado.
+Pre-flight: tarefas 1→3 compartilham tipo RecentPerformance/H2H passado ao preditor; tarefas 4→6 consomem corte temporal e opções modelVariant/historicalMatches; manter nomes e signatures alinhados entre etapas.
+Task 1: complete — `getRecentPerformance()` added with strict cutoff, venue/window filters, zero-safe metrics; 4 focused tests pass and backend typecheck passes.
+Task 2: complete — `getVenueHeadToHead()` uses same pair and venue, last five, weighted 1/.8/.6/.4/.2 and n/5 scaling at prediction; focused test and typecheck pass.
+Task 3: complete — v0.1 baseline retained; v0.2 features, symmetry-clamped parity catalog and tests implemented; contextual/Poisson tests and typecheck pass.
+Task 4: complete — evaluator variants/callback and strict per-kickoff past history added; same-kickoff leak reproduced RED then fixed; 3 evaluator tests pass.
+Task 5: complete — dashboard accepts prior-season match history only for prediction context; runner supplies older raw seasons; dashboard H2H integration test passes and current-season standings/simulation counts remain isolated.
+Ruling: use known football-data team IDs in the parity catalog rather than names — normalized season data exposes stable numeric-string IDs — cost if wrong: provider ID changes would require catalog update.
+Ruling: calibration may not assign zero weights to recent-10, recent-5, or venue-specific recent metrics — user explicitly approved those signals as required inputs, so constrain the candidate grid to positive values — cost if wrong: a signal that hurts future accuracy cannot be fully disabled by calibration.
+Ruling: H2H does not get an additional three-match pseudo-count after its recency weights and n/5 reliability shrink — avoid applying two sample-size penalties to the same small history; zero-goal sides use a 0.25 expected-goal floor — cost if wrong: H2H may influence forecasts more than a second shrinkage prior would.
+Final review finding fixed: dashboard now recomputes recent form and Elo for each fixture using only finished kickoffs strictly before that fixture; unknown kickoff yields no prior result/H2H; regression test reproduced leakage RED and passes GREEN.
+Final review finding fixed: parity activation now requires >=2 development seasons, >=700 paired development fixtures, >=200 holdout fixtures, both holdout metrics improved, and <=5% regression per development season.
+Final review finding fixed: prediction/dashboard defaults now keep parity at zero; only calibrated snapshot generation may explicitly pass the 0.1 parity candidate after sample and metric gates. Regression test passed RED→GREEN.
+Final review: Luna low read-only review found and rechecked the temporal cutoffs, H2H shrinkage, parity sample gates, and neutral default; no remaining findings.
+Task 6: complete — deterministic 9-candidate calibration over positive recent weights; ablations and parity gate evaluated on archived walk-forward seasons; `npm run model:run -- --all` generated valid evaluation snapshots for 2023–2026.
+Task 7: complete — docs updated, all backend/frontend tests, typechecks, frontend build and HTTP dashboard smoke check passed; API served v0.2-contextual with 279 FINISHED, 100 eligible and 1 postponed in the 2026 snapshot.

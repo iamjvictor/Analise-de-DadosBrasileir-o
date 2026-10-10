@@ -1,0 +1,1175 @@
+{
+  "metadata": {
+    "competition": "BSA",
+    "season": 2025,
+    "provider": "football-data.org",
+    "sourceSyncedAt": "2026-10-03T23:36:28.523Z",
+    "generatedAt": "2026-10-04T13:48:01.023Z",
+    "currentMatchday": 38,
+    "modelVersion": "v0.2-contextual",
+    "simulations": 10000,
+    "seed": 42,
+    "finishedMatches": 380,
+    "pendingMatches": 0,
+    "postponedMatches": 0
+  },
+  "championshipProbabilities": [
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "titleProbability": 1,
+      "top4Probability": 1,
+      "expectedPoints": 79,
+      "averagePosition": 1
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 1,
+      "expectedPoints": 76,
+      "averagePosition": 2
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 1,
+      "expectedPoints": 70,
+      "averagePosition": 3
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 1,
+      "expectedPoints": 67,
+      "averagePosition": 4
+    },
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 64,
+      "averagePosition": 5
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 63,
+      "averagePosition": 6
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 60,
+      "averagePosition": 7
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 51,
+      "averagePosition": 8
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 49,
+      "averagePosition": 9
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 48,
+      "averagePosition": 10
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 48,
+      "averagePosition": 11
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 47,
+      "averagePosition": 12
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 47,
+      "averagePosition": 13
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 45,
+      "averagePosition": 14
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 45,
+      "averagePosition": 15
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 44,
+      "averagePosition": 16
+    },
+    {
+      "team": {
+        "id": "1837",
+        "name": "Ceará SC",
+        "shortName": "Ceará",
+        "crestUrl": "https://crests.football-data.org/1837.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 43,
+      "averagePosition": 17
+    },
+    {
+      "team": {
+        "id": "3984",
+        "name": "Fortaleza EC",
+        "shortName": "Fortaleza",
+        "crestUrl": "https://crests.football-data.org/3984.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 43,
+      "averagePosition": 18
+    },
+    {
+      "team": {
+        "id": "4245",
+        "name": "EC Juventude",
+        "shortName": "Juventude",
+        "crestUrl": "https://crests.football-data.org/4245_large.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 35,
+      "averagePosition": 19
+    },
+    {
+      "team": {
+        "id": "1778",
+        "name": "SC Recife",
+        "shortName": "Recife",
+        "crestUrl": "https://crests.football-data.org/1778.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 17,
+      "averagePosition": 20
+    }
+  ],
+  "standings": [
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "position": 1,
+      "played": 38,
+      "wins": 23,
+      "draws": 10,
+      "losses": 5,
+      "goalsFor": 78,
+      "goalsAgainst": 27,
+      "goalDifference": 51,
+      "points": 79
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "position": 2,
+      "played": 38,
+      "wins": 23,
+      "draws": 7,
+      "losses": 8,
+      "goalsFor": 66,
+      "goalsAgainst": 33,
+      "goalDifference": 33,
+      "points": 76
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "position": 3,
+      "played": 38,
+      "wins": 19,
+      "draws": 13,
+      "losses": 6,
+      "goalsFor": 55,
+      "goalsAgainst": 31,
+      "goalDifference": 24,
+      "points": 70
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "position": 4,
+      "played": 38,
+      "wins": 18,
+      "draws": 13,
+      "losses": 7,
+      "goalsFor": 63,
+      "goalsAgainst": 39,
+      "goalDifference": 24,
+      "points": 67
+    },
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "position": 5,
+      "played": 38,
+      "wins": 19,
+      "draws": 7,
+      "losses": 12,
+      "goalsFor": 50,
+      "goalsAgainst": 39,
+      "goalDifference": 11,
+      "points": 64
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "position": 6,
+      "played": 38,
+      "wins": 17,
+      "draws": 12,
+      "losses": 9,
+      "goalsFor": 58,
+      "goalsAgainst": 38,
+      "goalDifference": 20,
+      "points": 63
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "position": 7,
+      "played": 38,
+      "wins": 17,
+      "draws": 9,
+      "losses": 12,
+      "goalsFor": 50,
+      "goalsAgainst": 46,
+      "goalDifference": 4,
+      "points": 60
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "position": 8,
+      "played": 38,
+      "wins": 14,
+      "draws": 9,
+      "losses": 15,
+      "goalsFor": 43,
+      "goalsAgainst": 47,
+      "goalDifference": -4,
+      "points": 51
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "position": 9,
+      "played": 38,
+      "wins": 13,
+      "draws": 10,
+      "losses": 15,
+      "goalsFor": 47,
+      "goalsAgainst": 50,
+      "goalDifference": -3,
+      "points": 49
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "position": 10,
+      "played": 38,
+      "wins": 14,
+      "draws": 6,
+      "losses": 18,
+      "goalsFor": 45,
+      "goalsAgainst": 57,
+      "goalDifference": -12,
+      "points": 48
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "position": 11,
+      "played": 38,
+      "wins": 12,
+      "draws": 12,
+      "losses": 14,
+      "goalsFor": 43,
+      "goalsAgainst": 44,
+      "goalDifference": -1,
+      "points": 48
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "position": 12,
+      "played": 38,
+      "wins": 12,
+      "draws": 11,
+      "losses": 15,
+      "goalsFor": 45,
+      "goalsAgainst": 50,
+      "goalDifference": -5,
+      "points": 47
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "position": 13,
+      "played": 38,
+      "wins": 12,
+      "draws": 11,
+      "losses": 15,
+      "goalsFor": 42,
+      "goalsAgainst": 47,
+      "goalDifference": -5,
+      "points": 47
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "position": 14,
+      "played": 38,
+      "wins": 13,
+      "draws": 6,
+      "losses": 19,
+      "goalsFor": 55,
+      "goalsAgainst": 60,
+      "goalDifference": -5,
+      "points": 45
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "position": 15,
+      "played": 38,
+      "wins": 11,
+      "draws": 12,
+      "losses": 15,
+      "goalsFor": 35,
+      "goalsAgainst": 52,
+      "goalDifference": -17,
+      "points": 45
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "position": 16,
+      "played": 38,
+      "wins": 11,
+      "draws": 11,
+      "losses": 16,
+      "goalsFor": 44,
+      "goalsAgainst": 57,
+      "goalDifference": -13,
+      "points": 44
+    },
+    {
+      "team": {
+        "id": "1837",
+        "name": "Ceará SC",
+        "shortName": "Ceará",
+        "crestUrl": "https://crests.football-data.org/1837.png"
+      },
+      "position": 17,
+      "played": 38,
+      "wins": 11,
+      "draws": 10,
+      "losses": 17,
+      "goalsFor": 34,
+      "goalsAgainst": 40,
+      "goalDifference": -6,
+      "points": 43
+    },
+    {
+      "team": {
+        "id": "3984",
+        "name": "Fortaleza EC",
+        "shortName": "Fortaleza",
+        "crestUrl": "https://crests.football-data.org/3984.png"
+      },
+      "position": 18,
+      "played": 38,
+      "wins": 11,
+      "draws": 10,
+      "losses": 17,
+      "goalsFor": 43,
+      "goalsAgainst": 58,
+      "goalDifference": -15,
+      "points": 43
+    },
+    {
+      "team": {
+        "id": "4245",
+        "name": "EC Juventude",
+        "shortName": "Juventude",
+        "crestUrl": "https://crests.football-data.org/4245_large.png"
+      },
+      "position": 19,
+      "played": 38,
+      "wins": 9,
+      "draws": 8,
+      "losses": 21,
+      "goalsFor": 35,
+      "goalsAgainst": 69,
+      "goalDifference": -34,
+      "points": 35
+    },
+    {
+      "team": {
+        "id": "1778",
+        "name": "SC Recife",
+        "shortName": "Recife",
+        "crestUrl": "https://crests.football-data.org/1778.png"
+      },
+      "position": 20,
+      "played": 38,
+      "wins": 2,
+      "draws": 11,
+      "losses": 25,
+      "goalsFor": 28,
+      "goalsAgainst": 75,
+      "goalDifference": -47,
+      "points": 17
+    }
+  ],
+  "recentForm": [
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "matches": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "points": 23,
+      "pointsPerGame": 2.3,
+      "goalsFor": 15,
+      "goalsAgainst": 4,
+      "sequence": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "W",
+        "D",
+        "W",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "points": 15,
+      "pointsPerGame": 1.5,
+      "goalsFor": 17,
+      "goalsAgainst": 12,
+      "sequence": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "L",
+        "D",
+        "W",
+        "W",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "points": 13,
+      "pointsPerGame": 1.3,
+      "goalsFor": 17,
+      "goalsAgainst": 17,
+      "sequence": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W",
+        "D",
+        "L",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "points": 15,
+      "pointsPerGame": 1.5,
+      "goalsFor": 13,
+      "goalsAgainst": 7,
+      "sequence": [
+        "W",
+        "W",
+        "L",
+        "D",
+        "D",
+        "L",
+        "L",
+        "W",
+        "W",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 5,
+      "losses": 0,
+      "points": 20,
+      "pointsPerGame": 2,
+      "goalsFor": 21,
+      "goalsAgainst": 12,
+      "sequence": [
+        "W",
+        "D",
+        "D",
+        "W",
+        "W",
+        "D",
+        "W",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 5,
+      "losses": 1,
+      "points": 17,
+      "pointsPerGame": 1.7,
+      "goalsFor": 14,
+      "goalsAgainst": 10,
+      "sequence": [
+        "L",
+        "D",
+        "D",
+        "W",
+        "D",
+        "D",
+        "W",
+        "W",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "points": 13,
+      "pointsPerGame": 1.3,
+      "goalsFor": 12,
+      "goalsAgainst": 17,
+      "sequence": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "L",
+        "L",
+        "D",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "points": 14,
+      "pointsPerGame": 1.4,
+      "goalsFor": 11,
+      "goalsAgainst": 14,
+      "sequence": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "L",
+        "D",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1778",
+        "name": "SC Recife",
+        "shortName": "Recife",
+        "crestUrl": "https://crests.football-data.org/1778.png"
+      },
+      "matches": 10,
+      "wins": 0,
+      "draws": 0,
+      "losses": 10,
+      "points": 0,
+      "pointsPerGame": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 31,
+      "sequence": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "points": 14,
+      "pointsPerGame": 1.4,
+      "goalsFor": 12,
+      "goalsAgainst": 12,
+      "sequence": [
+        "D",
+        "L",
+        "D",
+        "L",
+        "W",
+        "L",
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 0,
+      "losses": 7,
+      "points": 9,
+      "pointsPerGame": 0.9,
+      "goalsFor": 11,
+      "goalsAgainst": 19,
+      "sequence": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "points": 17,
+      "pointsPerGame": 1.7,
+      "goalsFor": 9,
+      "goalsAgainst": 9,
+      "sequence": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "D",
+        "D",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "points": 18,
+      "pointsPerGame": 1.8,
+      "goalsFor": 22,
+      "goalsAgainst": 12,
+      "sequence": [
+        "D",
+        "W",
+        "D",
+        "W",
+        "L",
+        "W",
+        "W",
+        "D",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1837",
+        "name": "Ceará SC",
+        "shortName": "Ceará",
+        "crestUrl": "https://crests.football-data.org/1837.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "points": 8,
+      "pointsPerGame": 0.8,
+      "goalsFor": 7,
+      "goalsAgainst": 13,
+      "sequence": [
+        "L",
+        "L",
+        "D",
+        "L",
+        "L",
+        "W",
+        "D",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "3984",
+        "name": "Fortaleza EC",
+        "shortName": "Fortaleza",
+        "crestUrl": "https://crests.football-data.org/3984.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "points": 19,
+      "pointsPerGame": 1.9,
+      "goalsFor": 17,
+      "goalsAgainst": 14,
+      "sequence": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W",
+        "D",
+        "D",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "4245",
+        "name": "EC Juventude",
+        "shortName": "Juventude",
+        "crestUrl": "https://crests.football-data.org/4245_large.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "points": 12,
+      "pointsPerGame": 1.2,
+      "goalsFor": 13,
+      "goalsAgainst": 16,
+      "sequence": [
+        "D",
+        "L",
+        "D",
+        "L",
+        "D",
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 0,
+      "losses": 6,
+      "points": 12,
+      "pointsPerGame": 1.2,
+      "goalsFor": 11,
+      "goalsAgainst": 14,
+      "sequence": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W",
+        "W",
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "points": 18,
+      "pointsPerGame": 1.8,
+      "goalsFor": 16,
+      "goalsAgainst": 9,
+      "sequence": [
+        "D",
+        "W",
+        "L",
+        "W",
+        "D",
+        "W",
+        "L",
+        "D",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "points": 9,
+      "pointsPerGame": 0.9,
+      "goalsFor": 9,
+      "goalsAgainst": 16,
+      "sequence": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "W",
+        "D",
+        "L",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "points": 16,
+      "pointsPerGame": 1.6,
+      "goalsFor": 17,
+      "goalsAgainst": 10,
+      "sequence": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "D",
+        "W",
+        "L",
+        "L",
+        "D",
+        "D"
+      ]
+    }
+  ],
+  "upcomingMatches": [],
+  "methodology": {
+    "recentMatchesWindow": 10,
+    "rating": "Elo: temporada, inicial 1500, K=20, mando +60",
+    "goalsModel": "Poisson; ataque/defesa da temporada, últimos 10, fase dos últimos 5, mando e H2H até 5 jogos; paridade em clássicos ativa",
+    "simulation": "Monte Carlo determinístico; 10000 execuções; seed 42",
+    "limitations": [
+      "Partidas IN_PLAY, POSTPONED, SUSPENDED e CANCELLED são excluídas de classificação, forma, previsão e simulação.",
+      "O desempate por confronto direto é aplicado para empate exato entre dois clubes; demais critérios podem depender de dados oficiais não fornecidos.",
+      "A estimativa usa placares e calendário; não incorpora lesões, escalações, xG ou odds.",
+      "Ajuste de paridade em clássicos ativado conforme validação walk-forward desta versão."
+    ]
+  }
+}

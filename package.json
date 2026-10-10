@@ -1,0 +1,16 @@
+{
+  "name": "brasileirao-predictor-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:web": "npm --prefix frontend run dev",
+    "build:web": "npm --prefix frontend run build",
+    "test:web": "npm --prefix frontend run test",
+    "typecheck:web": "npm --prefix frontend run typecheck",
+    "dev:api": "npm --prefix backend run dev",
+    "data:sync": "npm --prefix backend run data:sync",
+    "model:run": "npm --prefix backend run model:run --",
+    "test:api": "npm --prefix backend test",
+    "typecheck:api": "npm --prefix backend run typecheck"
+  }
+}

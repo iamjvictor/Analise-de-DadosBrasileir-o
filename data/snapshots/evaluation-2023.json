@@ -1,0 +1,84 @@
+{
+  "season": 2023,
+  "modelVersion": "v0.2-contextual",
+  "calibration": {
+    "trainingSeasons": [],
+    "candidatesEvaluated": 0,
+    "candidateGrid": {
+      "recent10Recent5AndVenue": [
+        0.05,
+        0.15,
+        0.25
+      ],
+      "headToHead": [
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "selectedWeights": {
+      "recent10Weight": 0.15,
+      "recent5FormWeight": 0.15,
+      "venue5Weight": 0.1,
+      "headToHeadWeight": 0.1,
+      "parityWeight": 0
+    },
+    "trainingFixtures": 0,
+    "trainingBrierScore": 0,
+    "trainingLogLoss": 0,
+    "bySeason": [],
+    "developmentGatePassed": false
+  },
+  "variants": {
+    "baseline": {
+      "fixtures": 380,
+      "brierScore": 0.6558407570585855,
+      "logLoss": 1.092934677368276,
+      "season": 2023,
+      "modelVariant": "baseline"
+    },
+    "withoutH2H": {
+      "fixtures": 380,
+      "brierScore": 0.6626147344460542,
+      "logLoss": 1.1111610108266818,
+      "season": 2023,
+      "modelVariant": "without-h2h"
+    },
+    "withoutParity": {
+      "fixtures": 380,
+      "brierScore": 0.6626147344460542,
+      "logLoss": 1.1111610108266818,
+      "season": 2023,
+      "modelVariant": "without-parity"
+    },
+    "withParity": {
+      "fixtures": 380,
+      "brierScore": 0.661981606608042,
+      "logLoss": 1.1098016407994793,
+      "season": 2023,
+      "modelVariant": "full"
+    }
+  },
+  "parity": {
+    "enabled": false,
+    "testComparedTo": "withoutParity",
+    "reason": "Paridade desativada: a condição walk-forward de validação não foi atendida."
+  },
+  "production": {
+    "variant": "without-parity",
+    "weights": {
+      "recent10Weight": 0.15,
+      "recent5FormWeight": 0.15,
+      "venue5Weight": 0.1,
+      "headToHeadWeight": 0.1,
+      "parityWeight": 0
+    },
+    "metrics": {
+      "fixtures": 380,
+      "brierScore": 0.6626147344460542,
+      "logLoss": 1.1111610108266818,
+      "season": 2023,
+      "modelVariant": "without-parity"
+    }
+  }
+}

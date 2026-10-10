@@ -1,0 +1,30 @@
+{
+  "provider": "football-data.org",
+  "competitionCode": "BSA",
+  "competitionId": 2013,
+  "season": 2026,
+  "retrievedAt": "2026-10-03T23:51:53.331Z",
+  "files": [
+    "competitions.json",
+    "competition.json",
+    "matches-2026.json",
+    "standings-2026.json",
+    "teams-2026.json"
+  ],
+  "counts": {
+    "matches": 380,
+    "teams": 20,
+    "matchStatuses": {
+      "FINISHED": 279,
+      "POSTPONED": 1,
+      "TIMED": 60,
+      "SCHEDULED": 40
+    },
+    "standingsTypes": [
+      "TOTAL",
+      "HOME",
+      "AWAY"
+    ]
+  },
+  "note": "Raw API snapshot; all match statuses are preserved and must be revalidated when modeling."
+}

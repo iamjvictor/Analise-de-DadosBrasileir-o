@@ -1,0 +1,122 @@
+{
+  "season": 2025,
+  "modelVersion": "v0.2-contextual",
+  "calibration": {
+    "trainingSeasons": [
+      2023,
+      2024
+    ],
+    "candidatesEvaluated": 9,
+    "candidateGrid": {
+      "recent10Recent5AndVenue": [
+        0.05,
+        0.15,
+        0.25
+      ],
+      "headToHead": [
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "selectedWeights": {
+      "recent10Weight": 0.05,
+      "recent5FormWeight": 0.05,
+      "venue5Weight": 0.05,
+      "headToHeadWeight": 0.2,
+      "parityWeight": 0
+    },
+    "trainingFixtures": 760,
+    "trainingBrierScore": 0.64597983413983,
+    "trainingLogLoss": 1.0803911193174558,
+    "bySeason": [
+      {
+        "season": 2023,
+        "contextual": {
+          "fixtures": 380,
+          "brierScore": 0.6542639903436913,
+          "logLoss": 1.093701960073854,
+          "season": 2023,
+          "modelVariant": "without-parity"
+        },
+        "baseline": {
+          "fixtures": 380,
+          "brierScore": 0.6558407570585855,
+          "logLoss": 1.092934677368276,
+          "season": 2023,
+          "modelVariant": "baseline"
+        }
+      },
+      {
+        "season": 2024,
+        "contextual": {
+          "fixtures": 380,
+          "brierScore": 0.6376956779359686,
+          "logLoss": 1.0670802785610576,
+          "season": 2024,
+          "modelVariant": "without-parity"
+        },
+        "baseline": {
+          "fixtures": 380,
+          "brierScore": 0.6403539271122227,
+          "logLoss": 1.0708627909540458,
+          "season": 2024,
+          "modelVariant": "baseline"
+        }
+      }
+    ],
+    "developmentGatePassed": true
+  },
+  "variants": {
+    "baseline": {
+      "fixtures": 380,
+      "brierScore": 0.6291115976563084,
+      "logLoss": 1.0493152259049923,
+      "season": 2025,
+      "modelVariant": "baseline"
+    },
+    "withoutH2H": {
+      "fixtures": 380,
+      "brierScore": 0.6250535231050506,
+      "logLoss": 1.0441012418289453,
+      "season": 2025,
+      "modelVariant": "without-h2h"
+    },
+    "withoutParity": {
+      "fixtures": 380,
+      "brierScore": 0.6246431560768299,
+      "logLoss": 1.0450023882471982,
+      "season": 2025,
+      "modelVariant": "without-parity"
+    },
+    "withParity": {
+      "fixtures": 380,
+      "brierScore": 0.6245792028930682,
+      "logLoss": 1.044391300144438,
+      "season": 2025,
+      "modelVariant": "full"
+    }
+  },
+  "parity": {
+    "enabled": true,
+    "testComparedTo": "withoutParity",
+    "reason": "Brier e log-loss menores no período avaliado e limite de desenvolvimento atendido."
+  },
+  "production": {
+    "variant": "full",
+    "weights": {
+      "recent10Weight": 0.05,
+      "recent5FormWeight": 0.05,
+      "venue5Weight": 0.05,
+      "headToHeadWeight": 0.2,
+      "parityWeight": 0.1
+    },
+    "metrics": {
+      "fixtures": 380,
+      "brierScore": 0.6245792028930682,
+      "logLoss": 1.044391300144438,
+      "season": 2025,
+      "modelVariant": "full"
+    }
+  }
+}

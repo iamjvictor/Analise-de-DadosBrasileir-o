@@ -1,0 +1,3276 @@
+{
+  "metadata": {
+    "competition": "BSA",
+    "season": 2026,
+    "provider": "football-data.org",
+    "sourceSyncedAt": "2026-10-03T23:51:53.330Z",
+    "generatedAt": "2026-10-04T13:58:28.126Z",
+    "currentMatchday": 28,
+    "modelVersion": "v0.2-contextual",
+    "simulations": 10000,
+    "seed": 42,
+    "finishedMatches": 279,
+    "pendingMatches": 100,
+    "postponedMatches": 1
+  },
+  "championshipProbabilities": [
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "titleProbability": 0.7839,
+      "top4Probability": 1,
+      "expectedPoints": 81.6817,
+      "averagePosition": 1.2195
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "titleProbability": 0.2153,
+      "top4Probability": 0.9997,
+      "expectedPoints": 77.889,
+      "averagePosition": 1.8201
+    },
+    {
+      "team": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "titleProbability": 0.0005,
+      "top4Probability": 0.8253,
+      "expectedPoints": 66.8106,
+      "averagePosition": 3.6904
+    },
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "titleProbability": 0.0003,
+      "top4Probability": 0.6616,
+      "expectedPoints": 65.4619,
+      "averagePosition": 4.217
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.2464,
+      "expectedPoints": 61.2208,
+      "averagePosition": 5.5366
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.1899,
+      "expectedPoints": 61.0948,
+      "averagePosition": 5.7988
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0599,
+      "expectedPoints": 57.7527,
+      "averagePosition": 6.9061
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0153,
+      "expectedPoints": 54.9618,
+      "averagePosition": 8.2376
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0008,
+      "expectedPoints": 50.0905,
+      "averagePosition": 10.4476
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0006,
+      "expectedPoints": 49.8933,
+      "averagePosition": 10.6065
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0004,
+      "expectedPoints": 49.765,
+      "averagePosition": 10.8953
+    },
+    {
+      "team": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0.0001,
+      "expectedPoints": 49.3644,
+      "averagePosition": 11.1723
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 44.7165,
+      "averagePosition": 13.8789
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 43.6555,
+      "averagePosition": 14.4728
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 43.6919,
+      "averagePosition": 14.5541
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 43.02,
+      "averagePosition": 14.7382
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 40.1803,
+      "averagePosition": 16.4359
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 39.7318,
+      "averagePosition": 16.5731
+    },
+    {
+      "team": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 32.3764,
+      "averagePosition": 18.8519
+    },
+    {
+      "team": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "titleProbability": 0,
+      "top4Probability": 0,
+      "expectedPoints": 24.3892,
+      "averagePosition": 19.9473
+    }
+  ],
+  "standings": [
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "position": 1,
+      "played": 28,
+      "wins": 18,
+      "draws": 6,
+      "losses": 4,
+      "goalsFor": 55,
+      "goalsAgainst": 23,
+      "goalDifference": 32,
+      "points": 60
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "position": 2,
+      "played": 28,
+      "wins": 16,
+      "draws": 9,
+      "losses": 3,
+      "goalsFor": 47,
+      "goalsAgainst": 21,
+      "goalDifference": 26,
+      "points": 57
+    },
+    {
+      "team": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "position": 3,
+      "played": 28,
+      "wins": 14,
+      "draws": 7,
+      "losses": 7,
+      "goalsFor": 43,
+      "goalsAgainst": 32,
+      "goalDifference": 11,
+      "points": 49
+    },
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "position": 4,
+      "played": 28,
+      "wins": 13,
+      "draws": 9,
+      "losses": 6,
+      "goalsFor": 44,
+      "goalsAgainst": 36,
+      "goalDifference": 8,
+      "points": 48
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "position": 5,
+      "played": 28,
+      "wins": 12,
+      "draws": 10,
+      "losses": 6,
+      "goalsFor": 43,
+      "goalsAgainst": 35,
+      "goalDifference": 8,
+      "points": 46
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "position": 6,
+      "played": 28,
+      "wins": 13,
+      "draws": 6,
+      "losses": 9,
+      "goalsFor": 42,
+      "goalsAgainst": 40,
+      "goalDifference": 2,
+      "points": 45
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "position": 7,
+      "played": 28,
+      "wins": 12,
+      "draws": 7,
+      "losses": 9,
+      "goalsFor": 37,
+      "goalsAgainst": 32,
+      "goalDifference": 5,
+      "points": 43
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "position": 8,
+      "played": 28,
+      "wins": 11,
+      "draws": 8,
+      "losses": 9,
+      "goalsFor": 43,
+      "goalsAgainst": 41,
+      "goalDifference": 2,
+      "points": 41
+    },
+    {
+      "team": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "position": 9,
+      "played": 28,
+      "wins": 10,
+      "draws": 8,
+      "losses": 10,
+      "goalsFor": 37,
+      "goalsAgainst": 43,
+      "goalDifference": -6,
+      "points": 38
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "position": 10,
+      "played": 28,
+      "wins": 10,
+      "draws": 6,
+      "losses": 12,
+      "goalsFor": 33,
+      "goalsAgainst": 32,
+      "goalDifference": 1,
+      "points": 36
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "position": 11,
+      "played": 28,
+      "wins": 10,
+      "draws": 6,
+      "losses": 12,
+      "goalsFor": 33,
+      "goalsAgainst": 32,
+      "goalDifference": 1,
+      "points": 36
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "position": 12,
+      "played": 28,
+      "wins": 9,
+      "draws": 8,
+      "losses": 11,
+      "goalsFor": 41,
+      "goalsAgainst": 45,
+      "goalDifference": -4,
+      "points": 35
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "position": 13,
+      "played": 28,
+      "wins": 9,
+      "draws": 6,
+      "losses": 13,
+      "goalsFor": 28,
+      "goalsAgainst": 42,
+      "goalDifference": -14,
+      "points": 33
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "position": 14,
+      "played": 28,
+      "wins": 8,
+      "draws": 8,
+      "losses": 12,
+      "goalsFor": 29,
+      "goalsAgainst": 32,
+      "goalDifference": -3,
+      "points": 32
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "position": 15,
+      "played": 28,
+      "wins": 8,
+      "draws": 8,
+      "losses": 12,
+      "goalsFor": 33,
+      "goalsAgainst": 42,
+      "goalDifference": -9,
+      "points": 32
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "position": 16,
+      "played": 27,
+      "wins": 8,
+      "draws": 7,
+      "losses": 12,
+      "goalsFor": 34,
+      "goalsAgainst": 41,
+      "goalDifference": -7,
+      "points": 31
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "position": 17,
+      "played": 28,
+      "wins": 7,
+      "draws": 8,
+      "losses": 13,
+      "goalsFor": 30,
+      "goalsAgainst": 38,
+      "goalDifference": -8,
+      "points": 29
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "position": 18,
+      "played": 28,
+      "wins": 6,
+      "draws": 10,
+      "losses": 12,
+      "goalsFor": 30,
+      "goalsAgainst": 36,
+      "goalDifference": -6,
+      "points": 28
+    },
+    {
+      "team": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "position": 19,
+      "played": 28,
+      "wins": 5,
+      "draws": 8,
+      "losses": 15,
+      "goalsFor": 32,
+      "goalsAgainst": 47,
+      "goalDifference": -15,
+      "points": 23
+    },
+    {
+      "team": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "position": 20,
+      "played": 27,
+      "wins": 3,
+      "draws": 9,
+      "losses": 15,
+      "goalsFor": 29,
+      "goalsAgainst": 53,
+      "goalDifference": -24,
+      "points": 18
+    }
+  ],
+  "recentForm": [
+    {
+      "team": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 5,
+      "losses": 1,
+      "points": 17,
+      "pointsPerGame": 1.7,
+      "goalsFor": 16,
+      "goalsAgainst": 13,
+      "sequence": [
+        "W",
+        "L",
+        "W",
+        "D",
+        "W",
+        "W",
+        "D",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "points": 19,
+      "pointsPerGame": 1.9,
+      "goalsFor": 15,
+      "goalsAgainst": 9,
+      "sequence": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W",
+        "D",
+        "W",
+        "D",
+        "W",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "points": 8,
+      "pointsPerGame": 0.8,
+      "goalsFor": 10,
+      "goalsAgainst": 15,
+      "sequence": [
+        "D",
+        "L",
+        "L",
+        "L",
+        "W",
+        "L",
+        "L",
+        "W",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "matches": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "points": 19,
+      "pointsPerGame": 1.9,
+      "goalsFor": 19,
+      "goalsAgainst": 14,
+      "sequence": [
+        "W",
+        "D",
+        "L",
+        "D",
+        "W",
+        "D",
+        "W",
+        "D",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "points": 16,
+      "pointsPerGame": 1.6,
+      "goalsFor": 17,
+      "goalsAgainst": 8,
+      "sequence": [
+        "D",
+        "W",
+        "D",
+        "D",
+        "W",
+        "L",
+        "D",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 10,
+      "pointsPerGame": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 13,
+      "sequence": [
+        "L",
+        "W",
+        "D",
+        "D",
+        "L",
+        "L",
+        "L",
+        "D",
+        "W",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "matches": 10,
+      "wins": 7,
+      "draws": 0,
+      "losses": 3,
+      "points": 21,
+      "pointsPerGame": 2.1,
+      "goalsFor": 18,
+      "goalsAgainst": 12,
+      "sequence": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W",
+        "W",
+        "W",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "points": 9,
+      "pointsPerGame": 0.9,
+      "goalsFor": 12,
+      "goalsAgainst": 20,
+      "sequence": [
+        "D",
+        "L",
+        "W",
+        "L",
+        "W",
+        "D",
+        "L",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "points": 11,
+      "pointsPerGame": 1.1,
+      "goalsFor": 10,
+      "goalsAgainst": 12,
+      "sequence": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "W",
+        "L",
+        "D",
+        "L",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "matches": 10,
+      "wins": 4,
+      "draws": 5,
+      "losses": 1,
+      "points": 17,
+      "pointsPerGame": 1.7,
+      "goalsFor": 16,
+      "goalsAgainst": 12,
+      "sequence": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "points": 8,
+      "pointsPerGame": 0.8,
+      "goalsFor": 11,
+      "goalsAgainst": 13,
+      "sequence": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "W",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "team": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "points": 11,
+      "pointsPerGame": 1.1,
+      "goalsFor": 12,
+      "goalsAgainst": 13,
+      "sequence": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L",
+        "L",
+        "D",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "matches": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "points": 8,
+      "pointsPerGame": 0.8,
+      "goalsFor": 6,
+      "goalsAgainst": 17,
+      "sequence": [
+        "L",
+        "D",
+        "W",
+        "L",
+        "L",
+        "W",
+        "L",
+        "L",
+        "L",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "matches": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "points": 23,
+      "pointsPerGame": 2.3,
+      "goalsFor": 20,
+      "goalsAgainst": 7,
+      "sequence": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "L",
+        "W",
+        "W",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "points": 12,
+      "pointsPerGame": 1.2,
+      "goalsFor": 13,
+      "goalsAgainst": 19,
+      "sequence": [
+        "L",
+        "D",
+        "L",
+        "W",
+        "W",
+        "D",
+        "W",
+        "L",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "matches": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "points": 7,
+      "pointsPerGame": 0.7,
+      "goalsFor": 8,
+      "goalsAgainst": 13,
+      "sequence": [
+        "L",
+        "L",
+        "D",
+        "L",
+        "L",
+        "W",
+        "D",
+        "L",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "matches": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "points": 5,
+      "pointsPerGame": 0.5,
+      "goalsFor": 11,
+      "goalsAgainst": 18,
+      "sequence": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "D",
+        "D",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "matches": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "points": 13,
+      "pointsPerGame": 1.3,
+      "goalsFor": 13,
+      "goalsAgainst": 17,
+      "sequence": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "D",
+        "D",
+        "L",
+        "L",
+        "W",
+        "D"
+      ]
+    },
+    {
+      "team": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "matches": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "points": 7,
+      "pointsPerGame": 0.7,
+      "goalsFor": 9,
+      "goalsAgainst": 14,
+      "sequence": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "D",
+        "D",
+        "D",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "team": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "matches": 10,
+      "wins": 6,
+      "draws": 2,
+      "losses": 2,
+      "points": 20,
+      "pointsPerGame": 2,
+      "goalsFor": 17,
+      "goalsAgainst": 12,
+      "sequence": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "D",
+        "W",
+        "L",
+        "D",
+        "L"
+      ]
+    }
+  ],
+  "upcomingMatches": [
+    {
+      "id": "555022",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.5525634475230473,
+      "draw": 0.25179918085036124,
+      "awayWin": 0.19563737162659198
+    },
+    {
+      "id": "555025",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.3810736124451944,
+      "draw": 0.30198692202257316,
+      "awayWin": 0.3169394655322325
+    },
+    {
+      "id": "555027",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "awayTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "homeWin": 0.527086657949146,
+      "draw": 0.27335112444589743,
+      "awayWin": 0.1995622176049568
+    },
+    {
+      "id": "555029",
+      "utcDate": "2026-10-07T23:00:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "awayTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "homeWin": 0.6278345154298538,
+      "draw": 0.23966587341874687,
+      "awayWin": 0.13249961115139913
+    },
+    {
+      "id": "555021",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "awayTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "homeWin": 0.6501726378706207,
+      "draw": 0.19557130710620482,
+      "awayWin": 0.1542560550231745
+    },
+    {
+      "id": "555023",
+      "utcDate": "2026-10-08T00:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "awayTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "homeWin": 0.6604020012045274,
+      "draw": 0.22250007681155795,
+      "awayWin": 0.11709792198391472
+    },
+    {
+      "id": "555028",
+      "utcDate": "2026-10-08T22:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "awayTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "homeWin": 0.1615160816664152,
+      "draw": 0.2020324322584164,
+      "awayWin": 0.6364514860751688
+    },
+    {
+      "id": "555020",
+      "utcDate": "2026-10-08T23:00:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "awayTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "homeWin": 0.593748201183552,
+      "draw": 0.2601852130104823,
+      "awayWin": 0.14606658580596604
+    },
+    {
+      "id": "555024",
+      "utcDate": "2026-10-09T00:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "awayTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "homeWin": 0.6811494153924867,
+      "draw": 0.18226769347433114,
+      "awayWin": 0.13658289113318217
+    },
+    {
+      "id": "555026",
+      "utcDate": "2026-10-09T00:30:00Z",
+      "round": 29,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "homeWin": 0.6349899115732802,
+      "draw": 0.21926446462782723,
+      "awayWin": 0.14574562379889244
+    },
+    {
+      "id": "555039",
+      "utcDate": "2026-10-10T20:00:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "awayTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "homeWin": 0.7025482793518063,
+      "draw": 0.17300028310772558,
+      "awayWin": 0.12445143754046922
+    },
+    {
+      "id": "555038",
+      "utcDate": "2026-10-11T00:00:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "awayTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "homeWin": 0.799987698592336,
+      "draw": 0.1421223370817023,
+      "awayWin": 0.05788996432596167
+    },
+    {
+      "id": "555030",
+      "utcDate": "2026-10-11T19:00:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "awayTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "homeWin": 0.5037044379088427,
+      "draw": 0.22278852913316907,
+      "awayWin": 0.2735070329579889
+    },
+    {
+      "id": "555035",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "homeWin": 0.5660873988936138,
+      "draw": 0.2338025110565272,
+      "awayWin": 0.2001100900498587
+    },
+    {
+      "id": "555036",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "awayTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "homeWin": 0.5206463355251819,
+      "draw": 0.25592716727818565,
+      "awayWin": 0.2234264971966329
+    },
+    {
+      "id": "555037",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.7546183874797268,
+      "draw": 0.17567600088056007,
+      "awayWin": 0.06970561163971326
+    },
+    {
+      "id": "555031",
+      "utcDate": "2026-10-11T22:30:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.6717034274958962,
+      "draw": 0.20369853352082837,
+      "awayWin": 0.12459803898327593
+    },
+    {
+      "id": "555034",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "awayTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "homeWin": 0.501064254854688,
+      "draw": 0.2360920167995769,
+      "awayWin": 0.2628437283457347
+    },
+    {
+      "id": "555033",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "awayTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "homeWin": 0.16035476268918356,
+      "draw": 0.1684492500432009,
+      "awayWin": 0.6711959872676164
+    },
+    {
+      "id": "555032",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "round": 30,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "homeWin": 0.3983109798069439,
+      "draw": 0.2594103837374196,
+      "awayWin": 0.3422786364556368
+    },
+    {
+      "id": "555047",
+      "utcDate": "2026-10-16T23:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "awayTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "homeWin": 0.5012417574933236,
+      "draw": 0.2490140380278956,
+      "awayWin": 0.24974420447878037
+    },
+    {
+      "id": "555043",
+      "utcDate": "2026-10-17T21:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "awayTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "homeWin": 0.6742588574907449,
+      "draw": 0.18951477274605671,
+      "awayWin": 0.13622636976319835
+    },
+    {
+      "id": "555041",
+      "utcDate": "2026-10-17T21:30:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "awayTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "homeWin": 0.6291107471547187,
+      "draw": 0.19654131188522503,
+      "awayWin": 0.1743479409600566
+    },
+    {
+      "id": "555040",
+      "utcDate": "2026-10-17T22:30:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "awayTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "homeWin": 0.3317880616613117,
+      "draw": 0.29128914940417594,
+      "awayWin": 0.37692278893451225
+    },
+    {
+      "id": "555049",
+      "utcDate": "2026-10-18T00:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "awayTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "homeWin": 0.6656704347525639,
+      "draw": 0.20185772961690432,
+      "awayWin": 0.13247183563053186
+    },
+    {
+      "id": "555045",
+      "utcDate": "2026-10-18T19:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "awayTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "homeWin": 0.5462283641830256,
+      "draw": 0.22471203029456163,
+      "awayWin": 0.22905960552241336
+    },
+    {
+      "id": "555046",
+      "utcDate": "2026-10-18T19:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "awayTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "homeWin": 0.3959066922101841,
+      "draw": 0.25107370591608996,
+      "awayWin": 0.3530196018737263
+    },
+    {
+      "id": "555042",
+      "utcDate": "2026-10-18T21:30:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "awayTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "homeWin": 0.21689218851542597,
+      "draw": 0.24153968353227442,
+      "awayWin": 0.5415681279523
+    },
+    {
+      "id": "555048",
+      "utcDate": "2026-10-18T22:30:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "awayTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "homeWin": 0.3489346805845276,
+      "draw": 0.29144016694284763,
+      "awayWin": 0.35962515247262483
+    },
+    {
+      "id": "555044",
+      "utcDate": "2026-10-19T23:00:00Z",
+      "round": 31,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "awayTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "homeWin": 0.5664533128054122,
+      "draw": 0.2629985431111321,
+      "awayWin": 0.1705481440834558
+    },
+    {
+      "id": "555052",
+      "utcDate": "2026-10-23T23:00:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "awayTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "homeWin": 0.819897397825307,
+      "draw": 0.11667730245741448,
+      "awayWin": 0.06342529971727874
+    },
+    {
+      "id": "555054",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "homeWin": 0.46102657178204,
+      "draw": 0.2673426128202665,
+      "awayWin": 0.27163081539769374
+    },
+    {
+      "id": "555055",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "awayTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "homeWin": 0.5290560018654235,
+      "draw": 0.2587188930624114,
+      "awayWin": 0.21222510507216524
+    },
+    {
+      "id": "555059",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "awayTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "homeWin": 0.3636695249884475,
+      "draw": 0.28840404174782125,
+      "awayWin": 0.3479264332637312
+    },
+    {
+      "id": "555056",
+      "utcDate": "2026-10-24T21:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "homeWin": 0.7456317094247795,
+      "draw": 0.1801644346801341,
+      "awayWin": 0.0742038558950865
+    },
+    {
+      "id": "555058",
+      "utcDate": "2026-10-24T21:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.47220322756507427,
+      "draw": 0.2531815604135202,
+      "awayWin": 0.2746152120214055
+    },
+    {
+      "id": "555050",
+      "utcDate": "2026-10-24T22:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "awayTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "homeWin": 0.14723440604027913,
+      "draw": 0.15542196019906612,
+      "awayWin": 0.6973436337606543
+    },
+    {
+      "id": "555057",
+      "utcDate": "2026-10-25T01:00:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "awayTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "homeWin": 0.4090367552965357,
+      "draw": 0.23813330748219114,
+      "awayWin": 0.35282993722127254
+    },
+    {
+      "id": "555051",
+      "utcDate": "2026-10-26T22:30:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "awayTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "homeWin": 0.6189374523471057,
+      "draw": 0.23636786621295697,
+      "awayWin": 0.1446946814399375
+    },
+    {
+      "id": "555053",
+      "utcDate": "2026-10-26T23:00:00Z",
+      "round": 32,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "homeWin": 0.6425215480687165,
+      "draw": 0.2436139050783784,
+      "awayWin": 0.11386454685290494
+    },
+    {
+      "id": "555062",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "homeWin": 0.6493301069832227,
+      "draw": 0.21568701577406615,
+      "awayWin": 0.1349828772427112
+    },
+    {
+      "id": "555065",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "awayTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "homeWin": 0.7045843589442242,
+      "draw": 0.19409969812263134,
+      "awayWin": 0.10131594293314443
+    },
+    {
+      "id": "555068",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "awayTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "homeWin": 0.2622679490005325,
+      "draw": 0.2815637182517206,
+      "awayWin": 0.456168332747747
+    },
+    {
+      "id": "555061",
+      "utcDate": "2026-10-29T00:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "awayTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "homeWin": 0.626852128702938,
+      "draw": 0.23643415223500694,
+      "awayWin": 0.13671371906205482
+    },
+    {
+      "id": "555067",
+      "utcDate": "2026-10-29T00:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "awayTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "homeWin": 0.39159708273499544,
+      "draw": 0.2504137137267238,
+      "awayWin": 0.35798920353828
+    },
+    {
+      "id": "555060",
+      "utcDate": "2026-10-29T22:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "awayTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "homeWin": 0.5828986988192583,
+      "draw": 0.21446988612099907,
+      "awayWin": 0.20263141505974275
+    },
+    {
+      "id": "555064",
+      "utcDate": "2026-10-29T22:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "awayTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "homeWin": 0.6906936026026423,
+      "draw": 0.18745192491641877,
+      "awayWin": 0.12185447248093904
+    },
+    {
+      "id": "555069",
+      "utcDate": "2026-10-29T23:00:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "awayTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "homeWin": 0.18337199200363727,
+      "draw": 0.21123932038015186,
+      "awayWin": 0.6053886876162117
+    },
+    {
+      "id": "555066",
+      "utcDate": "2026-10-30T00:30:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "awayTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "homeWin": 0.38577920701493507,
+      "draw": 0.2524257569639879,
+      "awayWin": 0.36179503602107693
+    },
+    {
+      "id": "555063",
+      "utcDate": "2026-10-30T23:00:00Z",
+      "round": 33,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.4295985174145402,
+      "draw": 0.30034304317939353,
+      "awayWin": 0.2700584394060665
+    },
+    {
+      "id": "555072",
+      "utcDate": "2026-11-02T23:00:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "homeWin": 0.35755242030470924,
+      "draw": 0.23976691885360774,
+      "awayWin": 0.4026806608416829
+    },
+    {
+      "id": "555073",
+      "utcDate": "2026-11-03T22:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.32475431382556,
+      "draw": 0.22967743067064336,
+      "awayWin": 0.44556825550379636
+    },
+    {
+      "id": "555076",
+      "utcDate": "2026-11-04T00:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "homeWin": 0.3945807746797241,
+      "draw": 0.2576881869636501,
+      "awayWin": 0.34773103835662567
+    },
+    {
+      "id": "555070",
+      "utcDate": "2026-11-04T22:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "awayTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "homeWin": 0.7599502342684527,
+      "draw": 0.16416692714550798,
+      "awayWin": 0.075882838586039
+    },
+    {
+      "id": "555075",
+      "utcDate": "2026-11-04T22:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "homeWin": 0.8967912000712769,
+      "draw": 0.08287989149875699,
+      "awayWin": 0.02032890842996621
+    },
+    {
+      "id": "555071",
+      "utcDate": "2026-11-05T00:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "awayTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "homeWin": 0.4429592483941799,
+      "draw": 0.2784078618120594,
+      "awayWin": 0.27863288979376055
+    },
+    {
+      "id": "555078",
+      "utcDate": "2026-11-05T00:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.4976879615553265,
+      "draw": 0.2791738558255129,
+      "awayWin": 0.22313818261916105
+    },
+    {
+      "id": "555077",
+      "utcDate": "2026-11-05T22:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "homeWin": 0.888923754150183,
+      "draw": 0.08191328776122041,
+      "awayWin": 0.029162958088596612
+    },
+    {
+      "id": "555074",
+      "utcDate": "2026-11-06T00:30:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "awayTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "homeWin": 0.5547675219176638,
+      "draw": 0.22114050298974108,
+      "awayWin": 0.2240919750925956
+    },
+    {
+      "id": "555079",
+      "utcDate": "2026-11-06T23:00:00Z",
+      "round": 34,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "awayTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "homeWin": 0.36192727387309165,
+      "draw": 0.27801640931203697,
+      "awayWin": 0.3600563168148716
+    },
+    {
+      "id": "555080",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "awayTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "homeWin": 0.38312025041014414,
+      "draw": 0.28577590813846065,
+      "awayWin": 0.3311038414513944
+    },
+    {
+      "id": "555081",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "awayTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "homeWin": 0.30657154078527926,
+      "draw": 0.23283612460074107,
+      "awayWin": 0.46059233461397936
+    },
+    {
+      "id": "555082",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "awayTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "homeWin": 0.26133458164429246,
+      "draw": 0.25907850933617643,
+      "awayWin": 0.47958690901953127
+    },
+    {
+      "id": "555083",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "homeWin": 0.6953435390636441,
+      "draw": 0.1881451710767672,
+      "awayWin": 0.11651128985958961
+    },
+    {
+      "id": "555084",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "awayTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "homeWin": 0.3318792991382581,
+      "draw": 0.253556729660015,
+      "awayWin": 0.4145639712017264
+    },
+    {
+      "id": "555085",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "awayTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "homeWin": 0.3461398126613349,
+      "draw": 0.28192047922436125,
+      "awayWin": 0.3719397081143033
+    },
+    {
+      "id": "555086",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "awayTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "homeWin": 0.5161817621422183,
+      "draw": 0.25441809205393606,
+      "awayWin": 0.22940014580384563
+    },
+    {
+      "id": "555087",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "awayTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "homeWin": 0.5049126852923057,
+      "draw": 0.2461179052155246,
+      "awayWin": 0.24896940949216975
+    },
+    {
+      "id": "555088",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "awayTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "homeWin": 0.5529659146247526,
+      "draw": 0.23651665122672522,
+      "awayWin": 0.21051743414852164
+    },
+    {
+      "id": "555089",
+      "utcDate": "2026-11-18T00:00:00Z",
+      "round": 35,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "awayTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "homeWin": 0.4705599342506502,
+      "draw": 0.32181954565071696,
+      "awayWin": 0.20762052009863305
+    },
+    {
+      "id": "555090",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "awayTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "homeWin": 0.8703522292223962,
+      "draw": 0.09201251842174439,
+      "awayWin": 0.03763525235585945
+    },
+    {
+      "id": "555091",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.584325359099063,
+      "draw": 0.24227364314455274,
+      "awayWin": 0.17340099775638465
+    },
+    {
+      "id": "555092",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "awayTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "homeWin": 0.6534031455665571,
+      "draw": 0.19515738509164282,
+      "awayWin": 0.1514394693418002
+    },
+    {
+      "id": "555093",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "awayTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "homeWin": 0.5665484013206569,
+      "draw": 0.23448644898787607,
+      "awayWin": 0.1989651496914673
+    },
+    {
+      "id": "555094",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "homeWin": 0.5251954932250766,
+      "draw": 0.24877982738693066,
+      "awayWin": 0.22602467938799184
+    },
+    {
+      "id": "555095",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "awayTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "homeWin": 0.19097524244039987,
+      "draw": 0.17710249592043517,
+      "awayWin": 0.6319222616391654
+    },
+    {
+      "id": "555096",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.7127236443195726,
+      "draw": 0.18387471046209727,
+      "awayWin": 0.10340164521833013
+    },
+    {
+      "id": "555097",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "homeWin": 0.6355670877137715,
+      "draw": 0.22788360959652526,
+      "awayWin": 0.13654930268970394
+    },
+    {
+      "id": "555098",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "homeWin": 0.3309728798019106,
+      "draw": 0.2927275010418737,
+      "awayWin": 0.37629961915621646
+    },
+    {
+      "id": "555099",
+      "utcDate": "2026-11-21T00:00:00Z",
+      "round": 36,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "awayTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "homeWin": 0.6984345908575353,
+      "draw": 0.2014182331789013,
+      "awayWin": 0.10014717596356357
+    },
+    {
+      "id": "555100",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "awayTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "homeWin": 0.7497639651459502,
+      "draw": 0.156807479773926,
+      "awayWin": 0.0934285550801233
+    },
+    {
+      "id": "555101",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "awayTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "homeWin": 0.35780804866801114,
+      "draw": 0.22530710900059903,
+      "awayWin": 0.416884842331391
+    },
+    {
+      "id": "555102",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "awayTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "homeWin": 0.047882958226635707,
+      "draw": 0.09441443480179475,
+      "awayWin": 0.8577026069715697
+    },
+    {
+      "id": "555103",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "awayTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "homeWin": 0.5240763401972048,
+      "draw": 0.29610086633594285,
+      "awayWin": 0.1798227934668528
+    },
+    {
+      "id": "555104",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "awayTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "homeWin": 0.11045058329081374,
+      "draw": 0.16389830753584633,
+      "awayWin": 0.7256511091733401
+    },
+    {
+      "id": "555105",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "awayTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "homeWin": 0.5675135665104257,
+      "draw": 0.2288159002406736,
+      "awayWin": 0.20367053324890078
+    },
+    {
+      "id": "555106",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "homeWin": 0.42301686497693275,
+      "draw": 0.30593878427664634,
+      "awayWin": 0.27104435074642014
+    },
+    {
+      "id": "555107",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "awayTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "homeWin": 0.33401712781425513,
+      "draw": 0.24187810451291225,
+      "awayWin": 0.4241047676728323
+    },
+    {
+      "id": "555108",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "awayTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "homeWin": 0.7701189309059318,
+      "draw": 0.15126644850849488,
+      "awayWin": 0.07861462058557342
+    },
+    {
+      "id": "555109",
+      "utcDate": "2026-11-28T00:00:00Z",
+      "round": 37,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "awayTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "homeWin": 0.335725811036537,
+      "draw": 0.2666565723894746,
+      "awayWin": 0.3976176165739889
+    },
+    {
+      "id": "555110",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1768",
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "crestUrl": "https://crests.football-data.org/1768.png"
+      },
+      "awayTeam": {
+        "id": "1776",
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "crestUrl": "https://crests.football-data.org/1776.png"
+      },
+      "homeWin": 0.7238475661856869,
+      "draw": 0.19044188758163072,
+      "awayWin": 0.08571054623268272
+    },
+    {
+      "id": "555111",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1777",
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "crestUrl": "https://crests.football-data.org/1777.png"
+      },
+      "awayTeam": {
+        "id": "1766",
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "crestUrl": "https://crests.football-data.org/1766.png"
+      },
+      "homeWin": 0.5501313612347493,
+      "draw": 0.26610018767372684,
+      "awayWin": 0.18376845109152315
+    },
+    {
+      "id": "555112",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4286",
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "crestUrl": "https://crests.football-data.org/4286.png"
+      },
+      "awayTeam": {
+        "id": "1765",
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "crestUrl": "https://crests.football-data.org/1765.png"
+      },
+      "homeWin": 0.38249281330469737,
+      "draw": 0.24901276495725827,
+      "awayWin": 0.3684944217380441
+    },
+    {
+      "id": "555113",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1771",
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "crestUrl": "https://crests.football-data.org/1771.png"
+      },
+      "awayTeam": {
+        "id": "6684",
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "crestUrl": "https://crests.football-data.org/6684.png"
+      },
+      "homeWin": 0.6556866044753282,
+      "draw": 0.2067839294567875,
+      "awayWin": 0.13752946606788458
+    },
+    {
+      "id": "555114",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1783",
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "crestUrl": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": "1772",
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "crestUrl": "https://crests.football-data.org/1772_large.png"
+      },
+      "homeWin": 0.8993411959501193,
+      "draw": 0.07704913290076248,
+      "awayWin": 0.023609671149118414
+    },
+    {
+      "id": "555115",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1767",
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "crestUrl": "https://crests.football-data.org/1767.png"
+      },
+      "awayTeam": {
+        "id": "4364",
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "crestUrl": "https://crests.football-data.org/4364.png"
+      },
+      "homeWin": 0.5289032634879994,
+      "draw": 0.25062199610536284,
+      "awayWin": 0.2204747404066381
+    },
+    {
+      "id": "555116",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1769",
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "crestUrl": "https://crests.football-data.org/1769.png"
+      },
+      "awayTeam": {
+        "id": "4241",
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "crestUrl": "https://crests.football-data.org/4241.png"
+      },
+      "homeWin": 0.7749949759699434,
+      "draw": 0.1471913235339978,
+      "awayWin": 0.07781370049605849
+    },
+    {
+      "id": "555117",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "4287",
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "crestUrl": "https://crests.football-data.org/4287.png"
+      },
+      "awayTeam": {
+        "id": "1779",
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "crestUrl": "https://crests.football-data.org/1779.png"
+      },
+      "homeWin": 0.3409804517856485,
+      "draw": 0.27621263156111353,
+      "awayWin": 0.38280691665323885
+    },
+    {
+      "id": "555118",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "6685",
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "crestUrl": "https://crests.football-data.org/6685.png"
+      },
+      "awayTeam": {
+        "id": "1770",
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "crestUrl": "https://crests.football-data.org/1770.png"
+      },
+      "homeWin": 0.5692447119447439,
+      "draw": 0.22151947232869829,
+      "awayWin": 0.20923581572655764
+    },
+    {
+      "id": "555119",
+      "utcDate": "2026-12-02T00:00:00Z",
+      "round": 38,
+      "status": "scheduled",
+      "homeTeam": {
+        "id": "1780",
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "crestUrl": "https://crests.football-data.org/1780.png"
+      },
+      "awayTeam": {
+        "id": "1782",
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "crestUrl": "https://crests.football-data.org/1782.png"
+      },
+      "homeWin": 0.7389690255015928,
+      "draw": 0.16117628459867242,
+      "awayWin": 0.09985468989973527
+    }
+  ],
+  "methodology": {
+    "recentMatchesWindow": 10,
+    "rating": "Elo: temporada, inicial 1500, K=20, mando +60",
+    "goalsModel": "Poisson; ataque/defesa da temporada, últimos 10, fase dos últimos 5, mando e H2H até 5 jogos; paridade em clássicos ativa",
+    "simulation": "Monte Carlo determinístico; 10000 execuções; seed 42",
+    "limitations": [
+      "Partidas IN_PLAY, POSTPONED, SUSPENDED e CANCELLED são excluídas de classificação, forma, previsão e simulação.",
+      "O desempate por confronto direto é aplicado para empate exato entre dois clubes; demais critérios podem depender de dados oficiais não fornecidos.",
+      "A estimativa usa placares e calendário; não incorpora lesões, escalações, xG ou odds.",
+      "Ajuste de paridade em clássicos ativado conforme validação walk-forward desta versão."
+    ]
+  }
+}
